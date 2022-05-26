@@ -2,9 +2,9 @@ import "./index.scss";
 
 const Skills: React.FC = () => {
   return (
-    <div>
+    <section id="skills">
       <h1>Skills</h1>
-    </div>
+    </section>
   );
 };
 

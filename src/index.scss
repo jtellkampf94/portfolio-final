@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-$color-bg: #b9b7a7;
-$color-bg-variant: #b5aa9d;
-$color-primary: #4e5166;
-$color-primary-variant: #7c90a0;
-$color-light: #747274;
-$color-white: #fff;
-
-$width-lg: 75%;
-$width-md: 86%;
-$width-sm: 90%;
-
-$transition: all 400ms ease;
+@import "./styles/_variables";
 
 * {
   margin: 0;
@@ -57,9 +45,8 @@ h1 {
 
 section {
   margin-top: 8rem;
-}
+  height: 100vh;
 
-section {
   & > h2 {
     text-align: center;
     color: $color-primary;

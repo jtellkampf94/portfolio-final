@@ -2,9 +2,9 @@ import "./index.scss";
 
 const Contact: React.FC = () => {
   return (
-    <div>
+    <section id="contact">
       <h1>Contact</h1>
-    </div>
+    </section>
   );
 };
 

@@ -2,9 +2,9 @@ import "./index.scss";
 
 const About: React.FC = () => {
   return (
-    <div>
+    <section id="about">
       <h1>About</h1>
-    </div>
+    </section>
   );
 };
 
