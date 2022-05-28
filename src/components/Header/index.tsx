@@ -4,7 +4,7 @@ import "./index.scss";
 
 const Header: React.FC = () => {
   return (
-    <header id="home">
+    <header class="header" id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Jonathan Tellkampf</h1>
