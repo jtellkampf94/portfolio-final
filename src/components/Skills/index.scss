@@ -1,0 +1,37 @@
+@import "../../styles/_variables";
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+
+  &__container > div {
+    background: $color-bg-variant;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $transition;
+
+    &:hover {
+      background: transparent;
+      border-color: $color-primary-variant;
+    }
+
+    & h3 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: $color-primary;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+
+  &__details {
+    display: flex;
+    gap: 1rem;
+  }
+}

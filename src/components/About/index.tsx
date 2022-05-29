@@ -16,33 +16,33 @@ const About: React.FC = () => {
             <img src="" alt="about image" />
           </div>
         </div>
-      </div>
 
-      <div className="about__content">
-        <div className="about__cards">
-          <article className="about__card">
-            <FaAward className="about__icon" />
-            <h5>Experience</h5>
-            <small>3+ years experience</small>
-          </article>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>3+ years experience</small>
+            </article>
 
-          <article className="about__card">
-            <FiUsers className="about__icon" />
-            <h5>Clients</h5>
-            <small>200+ Worldwide</small>
-          </article>
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Clients</h5>
+              <small>200+ Worldwide</small>
+            </article>
 
-          <article className="about__card">
-            <VscFolderLibrary className="about__icon" />
-            <h5>Projects</h5>
-            <small>80+ Completed projects</small>
-          </article>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
+              <h5>Projects</h5>
+              <small>80+ Completed projects</small>
+            </article>
 
-          <p>lor</p>
+            <p>lorem30</p>
 
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
     </section>
