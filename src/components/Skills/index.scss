@@ -33,5 +33,40 @@
   &__details {
     display: flex;
     gap: 1rem;
+    &-icon {
+      margin-top: 6px;
+      color: $color-primary;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .skills {
+    &__container {
+      grid-template-columns: 1fr;
+
+      & > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+      }
+    }
+
+    &__content {
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    &__container {
+      gap: 1rem;
+
+      & > div {
+        width: 100%;
+        padding: 2rem 1rem;
+      }
+    }
   }
 }
