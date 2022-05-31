@@ -42,7 +42,7 @@ const Skills: React.FC = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>SASS</h4>
+                <h4>SCSS</h4>
                 <small>Experienced</small>
               </div>
             </article>
@@ -154,6 +154,13 @@ const Skills: React.FC = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>AWS S3</h4>
+                <small>Experienced</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Linux</h4>
                 <small>Experienced</small>
               </div>
             </article>

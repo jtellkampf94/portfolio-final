@@ -10,13 +10,10 @@ const Header: React.FC = () => {
         <h1>Jonathan Tellkampf</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+
+        <span className="header__tags top-tag">&lt;body&gt;</span>
+        <span className="header__tags">&lt;/html&gt;</span>
         <HeaderSocials />
-
-        <div className="header__hero">Some image</div>
-
-        <a href="" className="header__scroll-down">
-          Scroll Down
-        </a>
       </div>
     </header>
   );
